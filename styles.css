@@ -5,8 +5,8 @@ body {
 
 .coin {
     position: absolute;
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
     border-radius: 100%;
     margin: 300px 0px 0px 45px;
     cursor: pointer;
@@ -62,8 +62,8 @@ body {
 .menu {
     position: absolute;
     margin: 720px 0px 0px 10px;
-    height: 130px;
-    width: 420px;
+    height: 110px;
+    width: 380px;
     background: rgba(190, 243, 199, 0.3);
     box-shadow: 0 8px 32px 0 rgba(71, 56, 12, 0.37);
     backdrop-filter: blur( 2.5px );
@@ -75,26 +75,26 @@ body {
 
 .boosts {
     position: absolute;
-    height: 130px;
-    width: 130px;
+    height: 110px;
+    width: 110px;
     transition: width 0.1s, height 0.1s;
     margin-left: 20px;
 }
 
 .claim {
     position: absolute;
-    height: 130px;
-    width: 130px;
+    height: 110px;
+    width: 110px;
     transition: width 0.1s, height 0.1s;
-    margin-left: 150px;
+    margin-left: 135px;
 }
 
 .info {
     position: absolute;
-    height: 130px;
-    width: 130px;
+    height: 110px;
+    width: 110px;
     transition: width 0.1s, height 0.1s;
-    margin-left: 270px;
+    margin-left: 250px;
 }
 
 .click-cost {
