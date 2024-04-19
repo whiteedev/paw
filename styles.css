@@ -10,7 +10,7 @@ body {
     height: 300px;
     width: 300px;
     border-radius: 100%;
-    margin: 300px 0px 0px 45px;
+    margin: 300px 0px 0px 0px;
     cursor: pointer;
 }
 
@@ -21,7 +21,7 @@ body {
     border: none;
     border-radius: 100%;
     cursor: pointer;
-    margin: 230px 0px 0px 30px;
+    margin: 230px 0px 0px 40px;
     position: absolute;
     background-image: url('coin.PNG');
     background-size: cover;
@@ -40,8 +40,8 @@ body {
 .boostsmenu {
     position: absolute;
     margin: 30px 0px 0px 10px;
-    height: 700px;
-    width: 370px;
+    height: 670px;
+    width: 350px;
     background: rgba(227, 240, 228, 0.3);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     backdrop-filter: blur( 4.5px );
@@ -99,7 +99,7 @@ body {
     position: absolute;
     margin: 150px 0px 0px 15px;
     height: 90px;
-    width: 340px;
+    width: 320px;
     background: rgba(0, 0, 0, 0.3);
     box-shadow: 0 8px 32px 0 rgba(56, 56, 56, 0.37);
     backdrop-filter: blur( 4.5px );
@@ -113,7 +113,7 @@ body {
 /* Меню с бустами клаим и инфо */
 .menu {
     position: absolute;
-    margin: 600px 0px 0px 0px;
+    margin: 600px 0px 0px 5px;
     height: 110px;
     width: 360px;
     background: rgba(190, 243, 199, 0.3);
