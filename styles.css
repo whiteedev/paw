@@ -87,7 +87,7 @@ body {
 /* Меню с бустами клаим и инфо */
 .menu {
     position: absolute;
-    margin: 600px 0px 0px 10px;
+    margin: 600px 0px 0px 0px;
     height: 110px;
     width: 360px;
     background: rgba(190, 243, 199, 0.3);
