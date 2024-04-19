@@ -20,7 +20,7 @@ body {
     border: none;
     border-radius: 100%;
     cursor: pointer;
-    margin: 230px 0px 0px 40px;
+    margin: 230px 0px 0px 30px;
     position: absolute;
     background-image: url('coin.PNG');
     background-size: cover;
@@ -38,9 +38,9 @@ body {
 .boostsmenu {
     position: absolute;
     margin: 30px 0px 0px 10px;
-    height: 770px;
-    width: 420px;
-    background: rgba( 255, 255, 255, 0.3 );
+    height: 700px;
+    width: 370px;
+    background: rgba(227, 240, 228, 0.3);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     backdrop-filter: blur( 4.5px );
     -webkit-backdrop-filter: blur( 4.5px );
@@ -57,6 +57,30 @@ body {
     font-size: 25px;
 }
 
+.c {
+    position: absolute;
+    margin: 20px 0px 0px 15px;
+    height: 40px;
+    width: 40px;
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(56, 56, 56, 0.37);
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.ctext {
+    text-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+    font-size: 30px;
+    color: #061900;
+    margin: 0px 0px 0px 12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration-line: none;
+}
+
 /* БАЛАНС В АВТОБОТЕ */
 .clicks1 {
     color: #fff;
@@ -71,10 +95,10 @@ body {
 /* АВТОБОТ */
 .autobot {
     position: absolute;
-    margin: 150px 0px 0px 18px;
+    margin: 150px 0px 0px 15px;
     height: 90px;
-    width: 380px;
-    background: rgba(122, 122, 122, 0.3);
+    width: 340px;
+    background: rgba(0, 0, 0, 0.3);
     box-shadow: 0 8px 32px 0 rgba(56, 56, 56, 0.37);
     backdrop-filter: blur( 4.5px );
     -webkit-backdrop-filter: blur( 4.5px );
@@ -87,7 +111,7 @@ body {
 /* Меню с бустами клаим и инфо */
 .menu {
     position: absolute;
-    margin: 500px 0px 0px 0px;
+    margin: 600px 0px 0px 0px;
     height: 110px;
     width: 360px;
     background: rgba(190, 243, 199, 0.3);
