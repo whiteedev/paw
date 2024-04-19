@@ -1,7 +1,8 @@
 body {
     background-color: #061900;
     background-size: 100%;
-    touch-action: manipulation;
+    touch-action: none;
+    overflow: hidden;
 }
 
 /* МОНЕТА ЛАПКА */
