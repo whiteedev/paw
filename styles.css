@@ -39,7 +39,7 @@ body {
 /* МЕНЮ БУСТА */
 .boostsmenu {
     position: absolute;
-    margin: 10px 0px 0px 5px;
+    margin: 10px 0px 0px 10px;
     height: 650px;
     width: 350px;
     background: rgba(227, 240, 228, 0.3);
