@@ -1,6 +1,7 @@
 body {
     background-color: #061900;
-    background-size: 30000%;
+    background-size: 100%;
+    touch-action: manipulation;
 }
 
 /* МОНЕТА ЛАПКА */
@@ -24,9 +25,10 @@ body {
     position: absolute;
     background-image: url('coin.PNG');
     background-size: cover;
+    touch-action: manipulation;
 }
 
-.image:hover {
+.imag:hover {
     opacity: 0.8;
   }
   
