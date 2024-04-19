@@ -20,7 +20,7 @@ body {
     border: none;
     border-radius: 100%;
     cursor: pointer;
-    margin: 250px 0px 0px 40px;
+    margin: 230px 0px 0px 40px;
     position: absolute;
     background-image: url('coin.PNG');
     background-size: cover;
@@ -87,7 +87,7 @@ body {
 /* Меню с бустами клаим и инфо */
 .menu {
     position: absolute;
-    margin: 680px 0px 0px 10px;
+    margin: 600px 0px 0px 10px;
     height: 110px;
     width: 360px;
     background: rgba(190, 243, 199, 0.3);
@@ -102,7 +102,7 @@ body {
 /* БАЛАНС В КЛИКЕРЕ */
 .click-cost {
     position: absolute;
-    margin: 150px 0px 0px 38%;
+    margin: 100px 0px 0px 35%;
     color: #fff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 50px;
