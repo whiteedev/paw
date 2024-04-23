@@ -6,16 +6,6 @@ body {
 }
 
 /* МОНЕТА ЛАПКА */
-.coin {
-    position: absolute;
-    height: 300px;
-    width: 300px;
-    border-radius: 100%;
-    margin: 300px 0px 0px 0px;
-    cursor: pointer;
-}
-
-/* МОНЕТА ЛАПКА */
 .imag {
     width: 300px;
     height: 300px;
@@ -27,6 +17,7 @@ body {
     background-image: url('coin.PNG');
     background-size: cover;
     touch-action: manipulation;
+    background-color: #000;
 }
 
 .imag:hover {
@@ -98,7 +89,7 @@ body {
 /* АВТОБОТ */
 .autobot {
     position: absolute;
-    margin: 150px 0px 0px 15px;
+    margin: 50px 0px 0px 15px;
     height: 90px;
     width: 320px;
     background: rgba(0, 0, 0, 0.3);
@@ -107,7 +98,7 @@ body {
     -webkit-backdrop-filter: blur( 4.5px );
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
-    border-radius: 30px;
+    border-radius: 50px;
     cursor: pointer;
 }
 
@@ -129,7 +120,7 @@ body {
 /* БАЛАНС В КЛИКЕРЕ */
 .click-cost {
     position: absolute;
-    margin: 100px 0px 0px 35%;
+    margin: 100px 0px 0px 39%;
     color: #fff;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 50px;
@@ -157,4 +148,84 @@ body {
     width: 110px;
     transition: width 0.1s, height 0.1s;
     margin-left: 240px;
+}
+
+
+/*ТЕКСТ КЛАИМ*/
+.textc {
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 30px 0px 0px 75px;
+    font-size: 30px;
+}
+
+/* WhiteeHack */
+.subswh {
+    position: absolute;
+    margin: 30px 0px 0px 15px;
+    height: 90px;
+    width: 320px;
+    background: rgba(0, 0, 0, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(56, 56, 56, 0.37);
+    backdrop-filter: blur( 4.5px );
+    -webkit-backdrop-filter: blur( 4.5px );
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.a {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 15px 0px 0px 85px;
+    position: absolute;
+}
+
+.b {
+    color: #64c574;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25px 0px 0px 235px;
+    position: absolute;
+}
+
+.ab {
+    color: #cccccc;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 54px 0px 0px 122gvbg  px;
+    position: absolute;
+}
+
+/* МОНЕТА */
+.imag2 {
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+    position: absolute;
+    background-image: url('coin.PNG');
+    background-size: cover;
+    touch-action: manipulation;
+    margin: 55px 0px 0px 75px;
+    
+}
+
+/* WHITEEHACK IMAG3 */
+.imag3 {
+    width: 70px;
+    height: 70px;
+    background-color: #000;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+    position: absolute;
+    background-image: url('whiteeoriginal.PNG');
+    background-size: cover;
+    touch-action: manipulation;
+    margin: 10px 0px 0px 10px;
 }
